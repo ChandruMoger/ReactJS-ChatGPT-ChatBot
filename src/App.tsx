@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 const API_URL = "https://api.openai.com/v1/chat/completions";
-const API_KEY = "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";
+const API_KEY = "YOUR API KEY";
 function App() {
   const [search, setSearch] = useState("");
   const controller = useRef(null);
